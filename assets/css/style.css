@@ -78,7 +78,7 @@ body {
   
   /* HERO */
   .hero {
-    /*background-image: url(""); */
+    background-image: url('../images/computer-photo.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -93,32 +93,86 @@ body {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #fff;
     font-size: 18px;
     line-height: 1.2;
-  }
+  } 
   
   .hero-text h2{
     font-style: italic;
     font-size: 55px;
+    text-align: right;
     color: var(--fourth-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+  } 
 
   /*ABOUT ME */
 
   .section-title {
     font-size: 48px;
     color: var(--second-color);
-    border-right: 3px solid;
-    padding-right: 20px;
+    padding: 0 ;
+    text-align: right;
+     margin: 200px 100px; 
+    width: 50%;
+}
+
+    .about{
+        width: 50%;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+    } 
+
+    .about img{
+        width: 50%;
+        height auto;
+    }
+
+  .about-text{
+      width: 50%;
+      margin: 200px 200px 200px 0px;
+      font-size: 18px;
+      line-height: 1.5;
+      color: : var(--second-color);
+      text-align: left;
+      padding: 0 ;
+      display:flex;
+  }
+
+  .contact {
+    font-size: 48px;
+    color: var(--second-color);
+    padding-right: 20px; 
     text-align: left;
     margin: 0 750px 35px auto;
     width: 50%;
   }
-  .about-text{
-      font-size: 18px;
-      color: : var(--second-color);
-      text-align: right;
-      padding: 40px;
+
+  .contact h2 {
+  /*margin: 200px 100px;*/
+}
+
+  .contact ul {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .contact ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    display: inline;
+  }
+
+  .table {
+      display: table;
+      margin: 0 auto;
+  }
+
+  .flex-row {
+    display: flex;
   }
