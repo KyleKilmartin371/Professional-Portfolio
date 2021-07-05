@@ -141,6 +141,20 @@ body {
       display:flex;
   }
 
+  .work-images img {
+      width: 50%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      border: solid 5px;
+      margin: 25px 400px;
+  }
+
+  .work-text {
+      display: inline;
+      background-color: var(--fourth-color);
+  }
+
   .contact {
     font-size: 48px;
     color: var(--second-color);
