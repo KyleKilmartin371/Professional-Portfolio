@@ -89,7 +89,7 @@ body {
   }
 
 .hero-text {
-    width: 35%;
+    width: 100%;
     text-align: right;
     margin: 3.5%;
     font-size: 18px;
@@ -232,4 +232,51 @@ body {
   .flex-row {
     display: flex;
     grid-template-columns: repeat(12, 1fr);
+  }
+
+  /*media screen sizes */
+  @media screen and (max-width: 980px) {
+    
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+    }
+
+    header h1 {
+      width: 100%;
+      text-align: left;
+    }
+
+     header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+    header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-text{
+    width: 100%;
+    text-align: right;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .work-subject {
+    width: 100%;
+    flex: 100%;
   }
