@@ -8,7 +8,6 @@
     --first-color: #474448;
     --second-color: #2d232e;
     --third-color: #e0ddcf;
-    --fourth-color: #ff686b;
   }
 
 body {
@@ -101,8 +100,9 @@ body {
     font-style: italic;
     font-size: 55px;
     text-align: right;
-    color: var(--fourth-color);
+    color: var(--third-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 100px 0 0 500px;
   } 
 
   /*ABOUT ME */
@@ -128,11 +128,12 @@ body {
     .about img{
         width: 50%;
         height: auto;
+        margin: 0 100px 0 400px;
     }
 
   .about-text{
       width: 50%;
-      margin: 200px 200px 200px 0px;
+      margin: 300px 200px 0 200px;
       font-size: 18px;
       line-height: 1.5;
       color: var(--second-color);
@@ -216,6 +217,11 @@ body {
     font-weight: lighter;
     font-size: 1.55vw;
     display: inline;
+    
+  }
+
+  .contact ul li a {
+    color: var(--second-color);
   }
 
   .table {
